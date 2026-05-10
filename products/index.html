@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Products</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+  <h1>Product Listing Page </h1>
+
+</header>
+
+<!-- CONTROLS -->
+
+<section class="controls">
+
+  <!-- SEARCH -->
+
+  <input
+  type="text"
+  id="search"
+  placeholder="Search Products">
+
+  <!-- FILTER -->
+
+  <select id="categoryFilter">
+
+    <option value="all">
+      All Categories
+    </option>
+
+    <option value="electronics">
+      Electronics
+    </option>
+
+    <option value="fashion">
+      Fashion
+    </option>
+
+  </select>
+
+  <!-- SORT -->
+
+  <select id="sortPrice">
+
+    <option value="default">
+      Sort By Price
+    </option>
+
+    <option value="lowToHigh">
+      Low To High
+    </option>
+
+    <option value="highToLow">
+      High To Low
+    </option>
+
+  </select>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<div
+class="product-container"
+id="productContainer">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
